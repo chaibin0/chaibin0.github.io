@@ -19,13 +19,13 @@ text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate",
 highlight_theme: "tomorrow-night-bright" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : "https://chaibin0.github.io"
 baseurl : # does not include hostname
-title   : chaibin0 blog
+title   : chaibin0 Blog
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  개발 경험 정리 블로그
 
 ## => Language and Timezone
 ##############################
-lang: kr # the language of your site, default as "en"
+lang: ko-KR  # the language of your site, default as "en"
 timezone: "Asia/Seoul" # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
