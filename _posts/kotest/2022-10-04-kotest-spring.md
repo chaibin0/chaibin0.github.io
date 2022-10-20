@@ -1,6 +1,6 @@
 ---
-title: spring + kotest 사용경험 정리
-tags: TeXt
+title: spring + kotest 사용경험 정리중
+tags: kotest
 permalink: /kotest/1
 ---
 
@@ -51,11 +51,22 @@ class StudentRepositoryTest(
     savedStudent.id shouldBe 1
   }
 })
+
+
 ```
 
-작성중
 ### 3. Controller Test
-
+```kotlin
+  mockMvc.get("/student") {
+      param("id", "1")
+      with(SecurityMockMvcRequestPostProcessors.user(withMockUser(1234))) // UserDetails 객체
+  }.andExpect {
+      status { isOk() }
+      jsonPath("$.id") { value(1) }
+  }.andDo {
+      print()
+  }
+```
 
 ### 4. Service Test
 
