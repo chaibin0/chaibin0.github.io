@@ -6,7 +6,8 @@ permalink: /kotest/1
 
 
 <!--more-->
-kotest 사용경험 정리
+kotest 사용경험 정리중입니다.
+
 
 ### 1. gradle 의존성 추가
 

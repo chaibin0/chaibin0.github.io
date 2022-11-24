@@ -5,6 +5,7 @@ permalink: /spring/openapi/1
 ---
 
 <!--more-->
+
 로컬은 http로 사용하고 있는데 dev, qa, stg는 https로 구성되어 있지만 Swagger에서 실행하다보면 전부 Http로 나와있는 경우가 있습니다.
 SpringDocs 옵션을 통해서 http, https에 구애받지 않는 환경으로 설정이 필요합니다.
 Server()를 환경별로 application.yml로 지정해서 property값을 받아서 처리할 수 있지만

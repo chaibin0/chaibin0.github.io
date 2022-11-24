@@ -1,9 +1,8 @@
 ---
-title: 롬복 플러그인 설정(gradle)
+title: 롬복 플러그인 설정 쉽게 하기(gradle)
 tags: lombok
 permalink: /lombok/1
 ---
-
 
 <!--more-->
 롬복 문서에서는 gradle를 통해 환경구성하는 방법을 2가지 소개하고 있습니다.
