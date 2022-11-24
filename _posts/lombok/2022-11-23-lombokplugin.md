@@ -12,7 +12,7 @@ permalink: /lombok/1
 dependencies에 추가하는 방법으로 아마 가장 많이 사용하지 않을까 생각이 드네요
 
 
-```gloovy
+```groovy
 ext {
     lombokVersion = '1.18.24'
 }
@@ -33,9 +33,9 @@ dependencies {
 
 ## 2. 플러그인 사용
 io.freefair.lombok 플러그인을 이용해서 등록해서 dependencies 양을 줄일 수 있습니다.
-```gloovy
+```groovy
 plugins {
-    ...
+//    ...
     id "io.freefair.lombok" version "4.1.6"
 }
 
